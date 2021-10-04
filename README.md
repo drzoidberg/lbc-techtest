@@ -9,7 +9,7 @@ lbc-techtest is the project proposed (web integration + some behaviour and appli
 
 ## 🛠 Installation & 🚀 Usage
 
-Use the node package manager [npm](https://npmjs.com/) to install lbc-techtest.
+In order to properly run the package, you will need installed [node v14](https://nodejs.org/) & npm on your machine
 
 ```javascript
 // for the 🛠 installation
