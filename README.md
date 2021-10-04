@@ -28,7 +28,9 @@ npm i
 npm start
 ```
 
+## Diagrams
 
+The initial diagrams used for laying out the markup of this project are [here](https://drive.google.com/file/d/1VfTO6YbimDCzzje24cbEY4w6coF4V-FJ/view?usp=sharing)
 
 ## 🌍 Hosted project
 [link example](http://nooooooooooooooo.com/)
