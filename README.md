@@ -3,9 +3,9 @@
 lbc-techtest is the project proposed (web integration + some behaviour and application state applied) for implementing the design provided [here](https://www.figma.com/file/XsWUa2a7pSeZzmaAeuvaLA/LittleBig-Social-Network?node-id=0%3A1)
 
 ## 🧾 It uses
- package   | description
----------- |-----------------------------------------------------
- node-sass | package used as a requirement for the technical test
+  package   | description
+ :--------- |:----------------------------------------------------
+  node-sass | package used as a requirement for the technical test
 
 ## 🛠 Installation & 🚀 Usage
 
