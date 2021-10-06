@@ -1,0 +1,38 @@
+@import '../../../sass/main.scss';
+
+.phase-item-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-grey-5;
+
+  border: rem(1) solid $color-primary;
+  border-radius: rem(8);
+  margin-left: rem(46);
+  margin-right: rem(26);
+  margin-bottom: rem(14);
+}
+
+.phase-item-box__displayedText {
+  color: $color-primary;
+  font-weight: 700;
+  margin-left: rem(34);
+  font-size: rem(14);
+}
+
+.phase-item-box__image {
+  margin: rem(8) rem(8) rem(8) 0;
+}
+
+.phase-item-box--grayed {
+  filter: grayscale(1) opacity(0.4);
+}
+
+.phase-item-separator {
+  width: rem(9);
+  height: rem(9);
+  background-color: $color-primary;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: rem(14);
+}
