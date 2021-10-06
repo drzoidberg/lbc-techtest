@@ -17,7 +17,7 @@ const ProgressTracker = () => {
   return (
     <>
       <nav className={classes['progress-tracker']}>
-        <ul>
+        <ul className={classes['progress-tracker__list']}>
           <li>
             <Logo />
           </li>
@@ -45,7 +45,7 @@ const ProgressTracker = () => {
             </li>
           ))}
           <li>
-            <div className={classes['login-item']}>
+            <div className={classes['progress-tracker__login-item']}>
               <span>Already registered:</span>
               <Button type='login'>Login</Button>
             </div>
