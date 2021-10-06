@@ -5,12 +5,10 @@
   display: flex;
   justify-content: space-between;
   background-color: $color-grey-5;
+  margin-bottom: rem(12);
 
   border: rem(1) solid $color-primary;
   border-radius: rem(8);
-  margin-left: rem(46);
-  margin-right: rem(26);
-  margin-bottom: rem(14);
 }
 
 .phase-item-box__displayedText {
