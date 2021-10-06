@@ -1,0 +1,18 @@
+@import '../../sass/main.scss';
+
+.progress-tracker {
+  width: rem(325);
+
+  @include responsive(phone) {
+    display: none;
+  }
+}
+
+.login-item {
+  display: flex;
+  align-items: center;
+  margin-left: rem(46);
+  margin-right: rem(26);
+  margin-top: rem(46);
+  justify-content: space-between;
+}
