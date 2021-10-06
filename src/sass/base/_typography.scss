@@ -7,10 +7,8 @@ body {
   color: $color-black;
 }
 
-.paragraph {
-  font-size: 1rem;
-
-  &:not(:last-child) {
-    margin-bottom: 2rem;
-  }
+.info {
+  border-radius: rem(10);
+  background-color: $color-grey-4;
+  padding: rem(10) rem(15);
 }

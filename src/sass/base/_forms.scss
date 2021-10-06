@@ -1,0 +1,15 @@
+.input-label {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: rem(10);
+}
+
+.input-message {
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: rem(10);
+
+  &__success {
+    color: $color-green;
+  }
+}
