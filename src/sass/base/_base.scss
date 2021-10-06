@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: rem(16);
+
+  @include responsive(phone) {
+    // width < 600?
+    font-size: rem(14);
+  }
+
+  @include responsive(tab-port) {
+    // width < 900?
+    font-size: rem(14);
+  }
+
+  @include responsive(tab-land) {
+    // width < 900?
+    font-size: rem(16);
+  }
+
+  @include responsive(big-desktop) {
+    // width > 1200?
+    font-size: rem(16);
+  }
+}
+
+body {
+  box-sizing: border-box;
+  // padding: rem(30);
+
+  // @include responsive(tab-port) {
+  //   padding: 0;
+  // }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}

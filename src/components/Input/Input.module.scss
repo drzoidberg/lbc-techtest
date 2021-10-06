@@ -1,0 +1,30 @@
+@import '../../sass/main.scss';
+
+.password-group {
+  position: relative;
+
+  &__input-password {
+    width: 100%;
+    padding: rem(2) rem(45);
+    font-size: rem(36);
+    border-radius: rem(5);
+    border: rem(1) solid $color-grey-1;
+
+    &:focus {
+      border: rem(1) solid $color-green;
+      outline: rem(1) solid $color-green;
+    }
+  }
+
+  &__img-lock {
+    position: absolute;
+    left: rem(12);
+    top: rem(14);
+  }
+
+  &__img-check {
+    position: absolute;
+    right: rem(12);
+    top: rem(14);
+  }
+}

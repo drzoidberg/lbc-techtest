@@ -1,0 +1,29 @@
+@import '../../sass/main.scss';
+
+.progress-tracker {
+  width: rem(325);
+  height: 100vh;
+  background-color: $color-white;
+  padding: rem(50) rem(26) 0 rem(46);
+
+  @include responsive(phone) {
+    display: none;
+  }
+}
+
+.progress-tracker__list {
+  list-style: none;
+  position: relative;
+  height: 100%;
+}
+
+.progress-tracker__login-item {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: rem(15) 0 rem(50) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-white;
+}
