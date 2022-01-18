@@ -9,6 +9,43 @@
   &__wrapper {
     margin: 0 rem(50);
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    @include responsive(tab-port) {
+      margin: 0 rem(0);
+      align-items: center;
+    }
+
+    @include responsive(tab-land) {
+      margin: 0 rem(0);
+      align-items: center;
+    }
+
+    @include responsive(big-desktop) {
+      margin: 0 rem(0);
+      align-items: center;
+    }
+  }
+}
+
+.my-profile-wrapper {
+  @include responsive(tab-port) {
+    width: rem(341);
+    margin-left: rem(142);
+    margin-bottom: rem(100);
+  }
+
+  @include responsive(tab-land) {
+    width: rem(341);
+    margin-left: rem(142);
+    margin-bottom: rem(100);
+  }
+
+  @include responsive(big-desktop) {
+    width: rem(341);
+    margin-left: rem(142);
+    margin-bottom: rem(100);
   }
 }
 
@@ -60,4 +97,23 @@
   position: absolute;
   bottom: rem(50);
   right: rem(60);
+}
+
+.my-profile-big-image {
+  display: none;
+
+  @include responsive(tab-port) {
+    display: initial;
+    margin-left: rem(100);
+  }
+
+  @include responsive(tab-land) {
+    display: initial;
+    margin-left: rem(100);
+  }
+
+  @include responsive(big-desktop) {
+    display: initial;
+    margin-left: rem(100);
+  }
 }
